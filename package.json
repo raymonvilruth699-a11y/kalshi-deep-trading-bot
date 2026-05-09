@@ -36,7 +36,7 @@
     "registry": "https://registry.npmjs.org/"
   },
   "scripts": {
-    "start": "bun run src/gateway/index.ts run"
+    "start": "bun run src/gateway/index.ts run",
     "dev": "bun --watch run src/index.tsx",
     "typecheck": "tsc --noEmit",
     "test": "bun test",
